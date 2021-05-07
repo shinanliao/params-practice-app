@@ -4,4 +4,5 @@ get "/phrase", controller: "params", action: "phrase"
   #?word=
 get "/phrase/:word", controller: "params", action: "phrase"
   #phrase/#
+post "/same_phrase", controller: "params", action: "phrase"
 end
